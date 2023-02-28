@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .a{
+                background-color: orange;
+            }
+            .b{
+                background-color: yellow;
+            }
+            table{
+                border-color: bisque;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="15px solid black"; style="width: 400px;;height: 400px;">
+            <tr>
+                <th>1</th>
+                <th colspan="4">2</th>
+            </tr>
+            <tr>
+                <th rowspan="3" >3</th>
+                <th class="a">4</th>
+                <th class="a">5</th>
+                <th class="b" rowspan="2"colspan="2">6</th>
+            </tr>
+            <tr>
+                <th class="a">7</th>
+                <th class="a">8</th>
+            </tr>
+            <tr>
+                <th class="b" colspan="2">9</th>
+                <th class="b" colspan="2">10</th>
+            </tr>
+        </table>
+    </body>
+</html>
